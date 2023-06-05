@@ -1,0 +1,32 @@
+
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+                              /*External Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap');
+@font-face {
+    font-family: 'college';
+    src: url(../fonts/CollegiateInsideFLF.ttf) format(truetypy);
+}
+:root{
+    /*My favorite colors*/
+    --color00:#4358F7;
+    --color01:#8B37FC;
+    --color02:#4C31E0;
+    --color03: #3174E0;
+    --color04:#37B6FC;
+    /*My favorite fonts*/
+    --fonts-header00: 'Share Tech Mono', monospace;
+    --fonts-header01:'college',arial, sans-serif; 
+    --fonts-body: 'Roboto Condensed', sans-serif;
+}
+body{
+    font-family: var(--fonts-body);
+    background-image: linear-gradient(to bottom, var(--color04), var(--color00), var(--color03));
+    background-attachment: fixed;
+}
+
