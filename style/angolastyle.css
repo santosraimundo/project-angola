@@ -30,3 +30,15 @@ body{
     background-attachment: fixed;
 }
 
+section{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+table{
+    width: 700px;
+    border-collapse: collapse;
+    margin: auto;
+}
+td,th{
+    border: 2px solid black;
+}
