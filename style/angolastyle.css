@@ -49,8 +49,16 @@ table{
     width: 700px;
     border-collapse: collapse;
     margin: auto;
+    position: relative;
+    background-color: gray;
     
 }
 td,th{
     border: 2px solid black;
+    padding: 5px;
+    
+}
+thead > tr >th{
+    position: sticky;
+    top: -1px;
 }
