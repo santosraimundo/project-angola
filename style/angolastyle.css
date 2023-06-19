@@ -19,6 +19,7 @@
     --color02:#4C31E0;
     --color03: #3174E0;
     --color04:#37B6FC;
+    --color05:#05055c;
     /*My favorite fonts*/
     --fonts-header00: 'Share Tech Mono', monospace;
     --fonts-header01:'college',arial, sans-serif; 
@@ -29,16 +30,26 @@ body{
     background-image: linear-gradient(to bottom, var(--color04), var(--color00), var(--color03));
     background-attachment: fixed;
 }
-
-
-section{
-    padding-top: 40px;
-    padding-left: 40px;
+caption{
+    background-color: #05055c;
+    padding: 40px;
+    color: white;
+}
+section#table{
+    background-color: white;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 40px;
+    margin-top: 10px;
+    box-shadow: 1px -1px 8px 1px #0000008c;
+    padding-top: 40px
 }
 table{
     width: 700px;
     border-collapse: collapse;
     margin: auto;
+    
 }
 td,th{
     border: 2px solid black;
