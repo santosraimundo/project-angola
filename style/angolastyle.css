@@ -34,6 +34,9 @@ caption{
     background-color: #05055c;
     padding: 40px;
     color: white;
+    font-family: var(--fonts-header01);
+    font-size: 1.3em;
+    font-weight: bold;
 }
 section#table{
     background-color: white;
