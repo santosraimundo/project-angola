@@ -29,6 +29,7 @@ body{
     font-family: var(--fonts-body);
     background-image: linear-gradient(to bottom, var(--color04), var(--color00), var(--color03));
     background-attachment: fixed;
+    min-width: 98vw;
 }
 header h1{
     margin: 15px;
@@ -45,18 +46,27 @@ caption{
     font-size: 1.3em;
     font-weight: bold;
 }
-section#table{
+main{
     background-color: white;
     margin-bottom: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
     padding-bottom: 40px;
+
     margin-top: 10px;
     box-shadow: 1px -1px 8px 1px #0000008c;
-    padding-top: 40px
+    padding-top: 20px
+}
+main article{
+    margin-bottom: 15px;
+    padding: 5px;
+}
+article p::first-letter{
+    font-size: 1.9em;
+
 }
 table{
-    width: 700px;
+    min-width: 700px;
     border-collapse: collapse;
     margin: auto;
     position: relative;
