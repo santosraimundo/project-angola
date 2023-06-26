@@ -66,7 +66,7 @@ article p::first-letter{
 
 }
 table{
-    min-width: 700px;
+    min-width: 800px;
     border-collapse: collapse;
     margin: auto;
     position: relative;
