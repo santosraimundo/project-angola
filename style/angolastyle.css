@@ -97,3 +97,16 @@ footer{
     color: white;
     font-family: var(--fonts-header01);
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: var(--color04);
+    padding: 5px;
+    
+}
+a::after{
+    content: '\1F517'
+}
