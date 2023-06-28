@@ -110,3 +110,8 @@ a:hover{
 a::after{
     content: '\1F517'
 }
+iframe{
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
