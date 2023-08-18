@@ -33,7 +33,6 @@ html,body{
     background-attachment: fixed;
     width: 100vw;
     height: 100vh;
-   
 }
 header h1{
     margin: 15px;
@@ -43,23 +42,24 @@ header h1{
     padding: 10px;
     font-family: var(--fonts-header01);
     font-weight: normal;
+ 
 }
 main{
     background-color: white;
     margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-bottom: 20px;
     box-shadow: 0px 0px 5px 1px #00000088;
     padding-top: 20px;
+    padding-bottom: 20px;
+   
+    
 }
 main article{
-    padding: 5px;
     text-indent: 20px;
-    
+    padding: 5px;
 }
 article p{
     line-height: 2em;
+    
 }
 article p::first-letter{
     font-size: 1.9em;
@@ -77,18 +77,16 @@ article a:hover{
     
 }
 article a::after{
-    content: '\1F517'
+    content: '\1F517';
 }
 article iframe{
     display: block;
     margin: auto;
-    padding: 20px;
-    width: 300px;
+    width: 380px;
     height: 280px;
 }
 main section#table{
-    margin-left: 15px;
-    margin-right: 15px; 
+    
 }
 caption{
     background-color: var(--color05);
@@ -101,6 +99,7 @@ caption{
 table{
     border-collapse: collapse;
     margin: auto;
+    width: 94%;
 }
 td,th{
     border: 2px solid black;
@@ -120,6 +119,7 @@ tbody tr >th:hover{
     cursor: pointer;
     transition: 0.4s;
 }
+/*Set my Footer*/
 footer{
     text-align: center;
     background-color: var(--color05);
