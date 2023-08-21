@@ -28,11 +28,12 @@
     --fonts-body: 'Roboto Condensed', sans-serif;
 }
 html,body{
+    width: 100vw;
+    height: 100vh;
     font-family: var(--fonts-body);
     background-color: var(--color04);
     background-attachment: fixed;
-    width: 100vw;
-    height: 100vh;
+    
 }
 header h1{
     margin: 15px;
@@ -42,23 +43,24 @@ header h1{
     padding: 10px;
     font-family: var(--fonts-header01);
     font-weight: normal;
- 
 }
 main{
     background-color: white;
     margin-bottom: 20px;
     box-shadow: 0px 0px 5px 1px #00000088;
     padding-top: 20px;
-    padding-bottom: 20px;
-   
     
+   
 }
 main article{
-    text-indent: 20px;
-    padding: 5px;
+    text-indent: 12px;
+    padding: 10px 0px;
 }
 article p{
     line-height: 2em;
+    text-align: justify;
+    
+    
     
 }
 article p::first-letter{
@@ -80,10 +82,10 @@ article a::after{
     content: '\1F517';
 }
 article iframe{
-    display: block;
+    display: block; 
     margin: auto;
-    width: 380px;
-    height: 280px;
+    width: 100%;
+    
 }
 main section#table{
     
@@ -99,7 +101,9 @@ caption{
 table{
     border-collapse: collapse;
     margin: auto;
-    width: 94%;
+    position: relative;
+    width: 100%;
+    
 }
 td,th{
     border: 2px solid black;
