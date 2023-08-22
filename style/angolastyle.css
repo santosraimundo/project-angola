@@ -53,9 +53,11 @@ main{
     padding-bottom: 20px;
     margin-right: 10px;
     margin-left: 10px;
-    width: 100%;
+    
+    
 }
-main article{
+
+main > article{
     text-indent: 12px;
     padding: 10px 0px;
 }
@@ -85,8 +87,8 @@ article a::after{
 }
 article iframe{
     display: block; 
-    margin: auto;
     width: 100%;
+    margin: auto;
     
 }
 caption{
@@ -99,9 +101,9 @@ caption{
 }
 table{
     border-collapse: collapse;
-    
-    position: relative;
+    margin: auto;
     width: 100%;
+    
 }
 td,th{
     border: 2px solid black;
@@ -130,5 +132,4 @@ footer{
     font-family: var(--fonts-header01);
     font-size: 0.7em;
     font-weight: bold;
-    
 }

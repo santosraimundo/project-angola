@@ -18,9 +18,6 @@
     html,body{
         background-image: linear-gradient(to bottom, var(--color04),var(--color02));
     }
-    header h1{
-        color: white;
-    }
     main{
         margin-left: 20px;
         margin-right: 20px;
@@ -35,10 +32,6 @@
     html,body{
         background-image: linear-gradient(to top, var(--color01),var(--color02));
     }
-    header h1{
-        color: white;
-    }
-    
     main{
         margin-left: 15px;
         margin-right: 15px;
