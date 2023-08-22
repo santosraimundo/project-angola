@@ -51,8 +51,6 @@ main{
     box-shadow: 0px 0px 5px 1px #00000088;
     padding-top: 20px;
     padding-bottom: 5px;
-    
-    
 }
 
 main article{
@@ -85,7 +83,7 @@ article a::after{
 }
 article iframe{
     display: block; 
-    width: 100%;
+    width: 98%;
     margin: auto;
     
 }

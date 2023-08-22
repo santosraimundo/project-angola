@@ -19,8 +19,8 @@
         background-image: linear-gradient(to bottom, var(--color04),var(--color02));
     }
     main{
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
         border-radius: 5px;
         
     }
@@ -33,8 +33,8 @@
         background-image: linear-gradient(to top, var(--color01),var(--color02));
     }
     main{
-        margin-left: 15px;
-        margin-right: 15px;
+        margin-left: 70px;
+        margin-right: 70px;
         border-radius: 5px;
     }
     
