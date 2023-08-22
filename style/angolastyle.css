@@ -100,8 +100,8 @@ caption{
 table{
     border-collapse: collapse;
     margin: auto;
-    
-    width: 100%;
+    width: 98%;
+    box-shadow: 0px 0px 5px 1px #00000088;
     
     
 }
