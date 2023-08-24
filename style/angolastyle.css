@@ -113,7 +113,7 @@ thead > tr >th{
 }
 tbody tr >th:hover{
     background-color:var(--color08);
-    color: white;
+    color: var(--color06);
     cursor: pointer;
     transition: 0.4s;
 }
