@@ -31,7 +31,6 @@ html,body{
     font-family: var(--fonts-body);
     background-color: var(--color03);
     background-attachment: fixed;
-    
 }
 header h1{
     margin: 15px;
