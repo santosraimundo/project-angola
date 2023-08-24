@@ -28,7 +28,7 @@
     --fonts-body: 'Roboto Condensed', sans-serif;
 }
 html,body{
-    width: 100vw;
+    max-width: 100vw;
     height: 100vh;
     font-family: var(--fonts-body);
     background-color: var(--color04);
@@ -50,7 +50,6 @@ main{
     margin-bottom: 20px;
     box-shadow: 0px 0px 5px 1px #00000088;
     padding-top: 20px;
-    padding-bottom: 5px;
 }
 
 main article{
@@ -83,9 +82,8 @@ article a::after{
 }
 article iframe{
     display: block; 
-    width: 98%;
+    width: 100%;
     margin: auto;
-    
 }
 caption{
     background-color: var(--color05);
@@ -98,7 +96,7 @@ caption{
 table{
     border-collapse: collapse;
     margin: auto;
-    width: 98%;
+    width: 100%;
     box-shadow: 0px 0px 5px 1px #00000088;
     
     
@@ -106,7 +104,6 @@ table{
 td,th{
     border: 2px solid black;
     padding: 5px;
-    
 }
 thead > tr >th{
     position: sticky;
