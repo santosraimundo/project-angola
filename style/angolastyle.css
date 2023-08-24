@@ -16,10 +16,10 @@
 }
 :root{
     /*My favorite colors*/
-    --color05:#05055c;
-    --color06: #FDD909;
-    --color07: #F50707;
-    --color08: #000000;
+    --color00:#05055c;
+    --color01: #FDD909;
+    --color02: #F50707;
+    --color03: #000000;
     /*My favorite fonts*/
     --fonts-header00: 'Share Tech Mono', monospace;
     --fonts-header01:'college',arial, sans-serif; 
@@ -29,7 +29,7 @@ html,body{
     max-width: 100vw;
     height: 100vh;
     font-family: var(--fonts-body);
-    background-color: var(--color08);
+    background-color: var(--color03);
     background-attachment: fixed;
     
 }
@@ -41,7 +41,7 @@ header h1{
     padding: 10px;
     font-family: var(--fonts-header01);
     font-weight: normal;
-    color: var(--color06);
+    color: var(--color01);
 }
 main{
     background-color: white;
@@ -84,9 +84,9 @@ article iframe{
     margin: auto;
 }
 caption{
-    background-color: var(--color08);
+    background-color: var(--color03);
     padding: 20px ;
-    color: var(--color06);
+    color: var(--color01);
     font-family: var(--fonts-header01);
     font-size: 1.3em;
     font-weight: bold;
@@ -107,13 +107,13 @@ td,th{
 thead > tr >th{
     position: sticky;
     top: -1px;
-    background-color:var(--color08);
-    color: var(--color06);
+    background-color:var(--color03);
+    color: var(--color01);
     
 }
 tbody tr >th:hover{
-    background-color:var(--color08);
-    color: var(--color06);
+    background-color:var(--color03);
+    color: var(--color01);
     cursor: pointer;
     transition: 0.4s;
 }
@@ -124,9 +124,9 @@ tbody tr >th:hover{
 /*Set my Footer*/
 footer{
     text-align: center;
-    background-color: var(--color06);
+    background-color: var(--color01);
     padding: 15px;
-    color: var(--color08);
+    color: var(--color03);
     font-family: var(--fonts-header01);
     font-size: 0.7em;
     font-weight: bold;

@@ -2,10 +2,10 @@
 
 :root{
     /*My favorite colors*/
-    --color05:#05055c;
-    --color06: #FDD909;
-    --color07: #F50707;
-    --color08: #000000;
+    --color00:#05055c;
+    --color01: #FDD909;
+    --color02: #F50707;
+    --color03: #000000;
     /*My favorite fonts*/
     --fonts-header00: 'Share Tech Mono', monospace;
     --fonts-header01:'college',arial, sans-serif; 
@@ -14,7 +14,7 @@
 /*Media query for medium devices*/
 @media screen and (min-width: 768px)  {
     html,body{
-        background-image: linear-gradient(to top, var(--color08),var(--color07));
+        background-image: linear-gradient(to top, var(--color03),var(--color02));
     }
     main{
         margin-left: 50px;
@@ -35,7 +35,7 @@
 /*Media query for large devices*/
 @media screen and (min-width: 992px){
     html,body{
-       background-image: linear-gradient(to top, var(--color08),var(--color07));
+       background-image: linear-gradient(to top, var(--color03),var(--color02));
     }
     main{
         margin-left: 70px;
