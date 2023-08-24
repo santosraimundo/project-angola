@@ -118,6 +118,10 @@ tbody tr >th:hover{
     cursor: pointer;
     transition: 0.4s;
 }
+tbody .capital_total{
+    text-align: center;
+    font-weight: bolder;
+}
 /*Set my Footer*/
 footer{
     text-align: center;
