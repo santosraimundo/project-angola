@@ -2,12 +2,10 @@
 
 :root{
     /*My favorite colors*/
-    --color00:#4358F7;
-    --color01:#8B37FC;
-    --color02:#4C31E0;
-    --color03: #3174E0;
-    --color04:#37B6FC;
     --color05:#05055c;
+    --color06: #FDD909;
+    --color07: #F50707;
+    --color08: #000000;
     /*My favorite fonts*/
     --fonts-header00: 'Share Tech Mono', monospace;
     --fonts-header01:'college',arial, sans-serif; 
@@ -16,13 +14,23 @@
 /*Media query for medium devices*/
 @media screen and (min-width: 768px)  {
     html,body{
-        background-image: linear-gradient(to bottom, var(--color04),var(--color02));
+        background-image: linear-gradient(to top, var(--color08),var(--color07));
     }
     main{
         margin-left: 50px;
         margin-right: 50px;
         border-radius: 5px;
         padding-bottom: 10px;
+        background-color: #0000006e;
+    }
+    header h1{
+        color: var(--color06);
+    }
+    table{
+        background-color: white;
+    }
+    main article{
+        background-color: white;
     }
     
     
@@ -30,7 +38,10 @@
 /*Media query for large devices*/
 @media screen and (min-width: 992px){
     html,body{
-        background-image: linear-gradient(to top, var(--color01),var(--color02));
+       background-image: linear-gradient(to top, var(--color08),var(--color07));
+    }
+    header h1{
+        color: var(--color06);
     }
     main{
         margin-left: 70px;
@@ -39,7 +50,8 @@
         padding-left: 10px;
         padding-right: 10px;
         padding-bottom: 10px;
-        background-color: #5f5d5da9;
+        background-color: #0000006e;
+        
     }
     table{
         background-color: white;
