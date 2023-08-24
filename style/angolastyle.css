@@ -41,7 +41,7 @@ header h1{
     padding: 10px;
     font-family: var(--fonts-header01);
     font-weight: normal;
-    color: white;
+    color: var(--color06);
 }
 main{
     background-color: white;

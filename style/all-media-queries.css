@@ -23,9 +23,6 @@
         padding-bottom: 10px;
         background-color: #0000006e;
     }
-    header h1{
-        color: var(--color06);
-    }
     table{
         background-color: white;
     }
@@ -39,9 +36,6 @@
 @media screen and (min-width: 992px){
     html,body{
        background-image: linear-gradient(to top, var(--color08),var(--color07));
-    }
-    header h1{
-        color: var(--color06);
     }
     main{
         margin-left: 70px;
