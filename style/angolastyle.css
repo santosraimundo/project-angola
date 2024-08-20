@@ -40,7 +40,7 @@ header h1{
     padding: 10px;
     font-family: var(--fonts-header01);
     font-weight: bold;
-    color: var(--color03);
+    color: white;
 }
 main{
     background-color: white;
