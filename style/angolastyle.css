@@ -45,12 +45,15 @@ header h1{
 main{
     background-color: white;
     margin-bottom: 20px;
-    box-shadow: 0px 0px 5px 1px #00000088;
+    display: flex;
+    flex-flow: column nowrap;
+    
 }
 
 main article{
     text-indent: 12px;
     padding: 10px 0px;
+    
 }
 article > p{
     line-height: 1.5em;
@@ -77,8 +80,7 @@ article a::after{
     content: '\1F517';
 }
 article iframe{
-    display: block; 
-    width: 100%;
+    display: block;
     margin: auto;
 }
 caption{
@@ -93,7 +95,7 @@ table{
     border-collapse: collapse;
     margin: auto;
     width: 100%;
-    box-shadow: 0px 0px 5px 1px #00000088;
+    box-shadow: 0px 0px 1px 1px #00000088;
    
     
     
